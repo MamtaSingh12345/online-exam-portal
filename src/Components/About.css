@@ -1,0 +1,34 @@
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #120303;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .about-us h1 {
+    font-size: 28px; /* Adjust heading font size for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+
+  .about-us p {
+    font-size: 16px; /* Adjust paragraph font size for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+}
